@@ -1,0 +1,13 @@
+extend type Query {
+  getReviews(query: ReviewPageQuery, pagination: PaginationInput): [ Review ]
+}
+
+input ReviewPageQuery {
+  page: String
+}
+
+type Review {
+  id: Int
+  name: String
+  body: String
+}

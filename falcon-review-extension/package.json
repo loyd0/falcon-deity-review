@@ -1,0 +1,12 @@
+{
+    "name": "falcon-review-extension",
+    "license": "OSL-3.0",
+    "main": "src/index.js",
+    "version": "0.1",
+    "dependencies": {
+      "@deity/falcon-logger": "^1.0.2",
+      "@deity/falcon-server-env": "^0.1.9",
+      "graphql-tools": "^4.0.0"
+    }
+  }
+  
